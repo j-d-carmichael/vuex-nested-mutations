@@ -1,0 +1,49 @@
+{
+  "name": "vuex-nested-mutations",
+  "version": "1.0.0",
+  "description": "Nested mutations for vuex",
+  "main": "dist/vuexNestedMutations.js",
+  "module": "dist/vuexNestedMutations.mjs",
+  "jsnext:main": "dist/vuexNestedMutations.mjs",
+  "scripts": {
+    "prebuild": "eslint lib test",
+    "build": "rollup -c --environment BUILD:production",
+    "watch": "rollup -c -w",
+    "pretest": "rollup -c",
+    "test": "mocha",
+    "prepublish": "npm test"
+  },
+  "repository": "jdcrecur/vuex-nested-mutations",
+  "keywords": [
+    "es6",
+    "vuex",
+    "vuex nested mutations",
+    "mutations",
+    "store"
+  ],
+  "author": "John Carmichael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdcrecur/vuex-nested-mutations/issues"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "homepage": "https://github.com/jdcrecur/vuex-nested-mutations#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-external-helpers": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "babelrc-rollup": "^3.0.0",
+    "eslint": "^4.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-istanbul": "^1.1.0",
+    "rollup-watch": "^4.0.0"
+  }
+}
