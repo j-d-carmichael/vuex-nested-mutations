@@ -1,6 +1,6 @@
 {
   "name": "vuex-nested-mutations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nested mutations for vuex",
   "main": "dist/vuexNestedMutations.js",
   "module": "dist/vuexNestedMutations.mjs",
@@ -16,6 +16,7 @@
   "repository": "jdcrecur/vuex-nested-mutations",
   "keywords": [
     "es6",
+    "vuejs",
     "vuex",
     "vuex nested mutations",
     "mutations",
